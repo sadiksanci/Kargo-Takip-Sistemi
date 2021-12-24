@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KTSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Adsoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="telno" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kuladı" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ilceler">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="ilce" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="sehir" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="iletisim">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="adsoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="konu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="mesaj" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="iller">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sehir" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="mesaj">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="adsoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="konu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="mesaj1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="tarih" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="takip">
+    <Key>
+      <PropertyRef Name="Kargono" />
+    </Key>
+    <Property Name="Kargono" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Gadsoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Gadres" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Gtelno" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Aadsoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Aadres" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Atelno" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Durum" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_il">
+    <Key>
+      <PropertyRef Name="il_id" />
+    </Key>
+    <Property Name="il_id" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="il_ad" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_ilce">
+    <Key>
+      <PropertyRef Name="ilce_id" />
+    </Key>
+    <Property Name="ilce_id" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="il_id" Type="Int16" Nullable="false" />
+    <Property Name="ilce_ad" Type="String" MaxLength="32" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_mahalle">
+    <Key>
+      <PropertyRef Name="mahalle_id" />
+    </Key>
+    <Property Name="mahalle_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="semt_id" Type="Int16" Nullable="false" />
+    <Property Name="mahalle_ad" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="pk_id" Type="Int16" />
+  </EntityType>
+  <EntityType Name="tbl_semt">
+    <Key>
+      <PropertyRef Name="semt_id" />
+    </Key>
+    <Property Name="semt_id" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ilce_id" Type="Int16" Nullable="false" />
+    <Property Name="semt_ad" Type="String" MaxLength="32" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="üye">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Adsoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="telno" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_pk">
+    <Key>
+      <PropertyRef Name="pk_id" />
+    </Key>
+    <Property Name="pk_id" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kod" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="KTSEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="admins" EntityType="Self.admin" />
+    <EntitySet Name="ilcelers" EntityType="Self.ilceler" />
+    <EntitySet Name="iletisims" EntityType="Self.iletisim" />
+    <EntitySet Name="illers" EntityType="Self.iller" />
+    <EntitySet Name="mesajs" EntityType="Self.mesaj" />
+    <EntitySet Name="takips" EntityType="Self.takip" />
+    <EntitySet Name="tbl_il" EntityType="Self.tbl_il" />
+    <EntitySet Name="tbl_ilce" EntityType="Self.tbl_ilce" />
+    <EntitySet Name="tbl_mahalle" EntityType="Self.tbl_mahalle" />
+    <EntitySet Name="tbl_semt" EntityType="Self.tbl_semt" />
+    <EntitySet Name="üye" EntityType="Self.üye" />
+    <EntitySet Name="tbl_pk" EntityType="Self.tbl_pk" />
+  </EntityContainer>
+</Schema>

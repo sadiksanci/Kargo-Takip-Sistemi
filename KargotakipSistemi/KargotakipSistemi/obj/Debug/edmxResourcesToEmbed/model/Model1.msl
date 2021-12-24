@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="kargoModelStoreContainer" CdmEntityContainer="kargoEntities">
+    <EntitySetMapping Name="kargolars">
+      <EntityTypeMapping TypeName="kargoModel.kargolar">
+        <MappingFragment StoreEntitySet="kargolar">
+          <ScalarProperty Name="kargono" ColumnName="kargono" />
+          <ScalarProperty Name="gönderen_ad_soyad" ColumnName="gönderen ad soyad" />
+          <ScalarProperty Name="gönderen_adres" ColumnName="gönderen adres" />
+          <ScalarProperty Name="alıcı_ad_soyad" ColumnName="alıcı ad soyad" />
+          <ScalarProperty Name="alıcı_adres" ColumnName="alıcı adres" />
+          <ScalarProperty Name="kargonerde" ColumnName="kargonerde" />
+          <ScalarProperty Name="fiyat" ColumnName="fiyat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

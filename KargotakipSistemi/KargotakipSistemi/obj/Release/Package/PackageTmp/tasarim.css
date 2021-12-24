@@ -1,0 +1,220 @@
+﻿
+.buton {
+    position: relative;
+    border: 0;
+    font: 300 14px 'Open Sans';
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    width:150px;
+    height:50px;
+    background: -webkit-linear-gradient(left, #2a83be 40px, #3498db 0);
+}
+
+    .buton > span > i.fa {
+        margin-right: 20px;
+    }
+
+    .buton > * {
+        position: relative;
+        z-index: 5;
+    }
+
+.buton-saga:after, .buton-sola:after, .buton-yukari:after, .buton-asagi:after {
+    position: absolute;
+    background: #2a83be;
+    width: 100%;
+    height: 100%;
+    content: "";
+    -webkit-transition: 1s cubic-bezier(0.165, 0.85, 0.45, 1);
+    transition: 1s cubic-bezier(0.165, 0.85, 0.45, 1);
+}
+.buton-kirmizi {
+    background: -webkit-linear-gradient(left, #c0392b 40px, #e74c3c 0);
+}
+
+.buton-kirmizi:after {
+    background-color: #c0392b;
+}
+
+.buton-yesil {
+    background: -webkit-linear-gradient(left, #27ae60 40px, #2ecc71 0);
+}
+
+    .buton-yesil:after {
+        background-color: #27ae60;
+    }
+
+.buton-sari {
+    background: -webkit-linear-gradient(left, #e67e22 40px, #f39c12 0);
+}
+
+    .buton-sari:after {
+        background-color: #e67e22;
+    }
+.kargonuz {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left:25px;
+}
+
+    .kargonuz td, #personel th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .kargonuz tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+   /* .kargonuz tr:hover {
+        background-color: #2ecc71;
+        color: #fff;
+    }*/
+
+    .kargonuz th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #2c3e50;
+        color: white;
+    }
+    .kargonuz td {
+        background-color: white;
+    }
+        /*@import url(//fonts.googleapis.com/css?family=Lato:100,300,300i,400);
+*/
+        .body1 {
+    box-sizing: border-box;
+    font-family: Lato, Arial;
+    text-align: center;
+    color: black;
+    background-color:gray;
+}
+
+h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 4px;
+}
+
+h4 {
+    margin-top: 1em;
+    color: black;
+    font-size: 150%;
+    font-weight: 300;
+    text-align: center;
+}
+
+.button {
+    display: inline;
+    background: #01A4E0;
+    color: #2184AC;
+    border: 0;
+    padding: 4px;
+}
+
+.input {
+    display: block;
+    width: 75%;
+    height: 30px;
+    margin-top: 1.0em;
+    padding: 4px;
+    color:black;
+}
+
+.small {
+    display: inline-block;
+    margin-top: 5px;
+    color: white;
+    font-size: 100%;
+    color: #fff;
+}
+
+.login-box {
+    padding: 1em 1em 1em 1em;
+    margin: auto;
+    text-align: center;
+    display: block;
+   /* background-color: #6f92dc;*/
+    /*border: 1px dashed white;*/
+    width: 60%;
+    height: auto;
+    background-color:green;
+}
+
+.outer-box {
+    display: block;
+    margin: auto;
+   /* background: #6f92dc;*/
+    border-radius: 5px;
+    width: 50%;
+    height: 20em;
+    height: auto;
+}
+
+.btngiris {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 2.0em;
+    border-radius: 4px;
+    background-color: #3366cc;
+    color: #fff;
+}
+
+#btn-forgot {
+    display: block;
+    width: 100%;
+    margin-top: 1.0em;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #000D36;
+}
+.giris{
+    background-color:green;
+}
+.btnkargo {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btnkargo {
+    background-color: #e67e22; /*Carrot*/
+    color: white;
+}
+
+    .text3
+
+{
+    background: white;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 6px 4px gray;
+    outline: 0;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-moz-border-radius: 15px;
+}
+
+.text3:hover {
+    background: white;
+    border: 1px solid darkgray;
+    box-shadow: 1px 1px 6px 4px gray;
+    color: black;
+    outline: none;
+}
+
+.text3:focus {
+    box-shadow: 1px 1px 6px 4px black;
+    background: white;
+    outline: none;
+}

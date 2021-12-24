@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KTSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Adsoyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="telno" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="kuladı" Type="nvarchar" MaxLength="50" />
+    <Property Name="sifre" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ilceler">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="ilce" Type="nvarchar" MaxLength="255" />
+    <Property Name="sehir" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="iletisim">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="adsoyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="konu" Type="nvarchar" MaxLength="50" />
+    <Property Name="mesaj" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="iller">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sehir" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="mesaj">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="adsoyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="konu" Type="nvarchar" MaxLength="50" />
+    <Property Name="mesaj" Type="text" />
+    <Property Name="tarih" Type="date" />
+  </EntityType>
+  <EntityType Name="takip">
+    <Key>
+      <PropertyRef Name="Kargono" />
+    </Key>
+    <Property Name="Kargono" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Gadsoyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gadres" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gtelno" Type="nvarchar" MaxLength="50" />
+    <Property Name="Aadsoyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Aadres" Type="nvarchar" MaxLength="50" />
+    <Property Name="Atelno" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_il">
+    <Key>
+      <PropertyRef Name="il_id" />
+    </Key>
+    <Property Name="il_id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="il_ad" Type="nvarchar" MaxLength="16" />
+  </EntityType>
+  <EntityType Name="tbl_ilce">
+    <Key>
+      <PropertyRef Name="ilce_id" />
+    </Key>
+    <Property Name="ilce_id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="il_id" Type="smallint" Nullable="false" />
+    <Property Name="ilce_ad" Type="nvarchar" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="tbl_mahalle">
+    <Key>
+      <PropertyRef Name="mahalle_id" />
+    </Key>
+    <Property Name="mahalle_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="semt_id" Type="smallint" Nullable="false" />
+    <Property Name="mahalle_ad" Type="nvarchar" MaxLength="40" />
+    <Property Name="pk_id" Type="smallint" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'KTS.dbo.tbl_pk' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_pk">
+    <Key>
+      <PropertyRef Name="pk_id" />
+    </Key>
+    <Property Name="pk_id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kod" Type="char" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="tbl_semt">
+    <Key>
+      <PropertyRef Name="semt_id" />
+    </Key>
+    <Property Name="semt_id" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ilce_id" Type="smallint" Nullable="false" />
+    <Property Name="semt_ad" Type="nvarchar" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="üye">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Adsoyad" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="telno" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="sifre" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="KTSModelStoreContainer">
+    <EntitySet Name="admin" EntityType="Self.admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ilceler" EntityType="Self.ilceler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="iletisim" EntityType="Self.iletisim" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="iller" EntityType="Self.iller" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="mesaj" EntityType="Self.mesaj" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="takip" EntityType="Self.takip" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_il" EntityType="Self.tbl_il" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ilce" EntityType="Self.tbl_ilce" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_mahalle" EntityType="Self.tbl_mahalle" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_semt" EntityType="Self.tbl_semt" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="üye" EntityType="Self.üye" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_pk" EntityType="Self.tbl_pk" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_pk].[pk_id] AS [pk_id], 
+    [tbl_pk].[kod] AS [kod]
+    FROM [dbo].[tbl_pk] AS [tbl_pk]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

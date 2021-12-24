@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="kargoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'kargo.dbo.kargolar' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="kargolar">
+    <Key>
+      <PropertyRef Name="kargono" />
+    </Key>
+    <Property Name="kargono" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="gönderen ad soyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="gönderen adres" Type="nvarchar" MaxLength="50" />
+    <Property Name="alıcı ad soyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="alıcı adres" Type="nvarchar" MaxLength="50" />
+    <Property Name="kargonerde" Type="nvarchar" MaxLength="50" />
+    <Property Name="fiyat" Type="int" />
+  </EntityType>
+  <EntityContainer Name="kargoModelStoreContainer">
+    <EntitySet Name="kargolar" EntityType="Self.kargolar" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [kargolar].[kargono] AS [kargono], 
+    [kargolar].[gönderen ad soyad] AS [gönderen ad soyad], 
+    [kargolar].[gönderen adres] AS [gönderen adres], 
+    [kargolar].[alıcı ad soyad] AS [alıcı ad soyad], 
+    [kargolar].[alıcı adres] AS [alıcı adres], 
+    [kargolar].[kargonerde] AS [kargonerde], 
+    [kargolar].[fiyat] AS [fiyat]
+    FROM [dbo].[kargolar] AS [kargolar]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

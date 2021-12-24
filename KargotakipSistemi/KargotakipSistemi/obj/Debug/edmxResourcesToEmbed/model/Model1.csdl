@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="kargoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="kargolar">
+    <Key>
+      <PropertyRef Name="kargono" />
+    </Key>
+    <Property Name="kargono" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="gönderen_ad_soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="gönderen_adres" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="alıcı_ad_soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="alıcı_adres" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kargonerde" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="fiyat" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="kargoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="kargolars" EntityType="Self.kargolar" />
+  </EntityContainer>
+</Schema>

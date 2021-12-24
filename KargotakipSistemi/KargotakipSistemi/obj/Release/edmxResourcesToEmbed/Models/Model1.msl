@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="KTSModelStoreContainer" CdmEntityContainer="KTSEntities1">
+    <EntitySetMapping Name="admins">
+      <EntityTypeMapping TypeName="KTSModel.admin">
+        <MappingFragment StoreEntitySet="admin">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Adsoyad" ColumnName="Adsoyad" />
+          <ScalarProperty Name="telno" ColumnName="telno" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="kuladı" ColumnName="kuladı" />
+          <ScalarProperty Name="sifre" ColumnName="sifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ilcelers">
+      <EntityTypeMapping TypeName="KTSModel.ilceler">
+        <MappingFragment StoreEntitySet="ilceler">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ilce" ColumnName="ilce" />
+          <ScalarProperty Name="sehir" ColumnName="sehir" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iletisims">
+      <EntityTypeMapping TypeName="KTSModel.iletisim">
+        <MappingFragment StoreEntitySet="iletisim">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="adsoyad" ColumnName="adsoyad" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="konu" ColumnName="konu" />
+          <ScalarProperty Name="mesaj" ColumnName="mesaj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="illers">
+      <EntityTypeMapping TypeName="KTSModel.iller">
+        <MappingFragment StoreEntitySet="iller">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sehir" ColumnName="sehir" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mesajs">
+      <EntityTypeMapping TypeName="KTSModel.mesaj">
+        <MappingFragment StoreEntitySet="mesaj">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="adsoyad" ColumnName="adsoyad" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="konu" ColumnName="konu" />
+          <ScalarProperty Name="mesaj1" ColumnName="mesaj" />
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="takips">
+      <EntityTypeMapping TypeName="KTSModel.takip">
+        <MappingFragment StoreEntitySet="takip">
+          <ScalarProperty Name="Kargono" ColumnName="Kargono" />
+          <ScalarProperty Name="Gadsoyad" ColumnName="Gadsoyad" />
+          <ScalarProperty Name="Gadres" ColumnName="Gadres" />
+          <ScalarProperty Name="Gtelno" ColumnName="Gtelno" />
+          <ScalarProperty Name="Aadsoyad" ColumnName="Aadsoyad" />
+          <ScalarProperty Name="Aadres" ColumnName="Aadres" />
+          <ScalarProperty Name="Atelno" ColumnName="Atelno" />
+          <ScalarProperty Name="Durum" ColumnName="Durum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_il">
+      <EntityTypeMapping TypeName="KTSModel.tbl_il">
+        <MappingFragment StoreEntitySet="tbl_il">
+          <ScalarProperty Name="il_id" ColumnName="il_id" />
+          <ScalarProperty Name="il_ad" ColumnName="il_ad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ilce">
+      <EntityTypeMapping TypeName="KTSModel.tbl_ilce">
+        <MappingFragment StoreEntitySet="tbl_ilce">
+          <ScalarProperty Name="ilce_id" ColumnName="ilce_id" />
+          <ScalarProperty Name="il_id" ColumnName="il_id" />
+          <ScalarProperty Name="ilce_ad" ColumnName="ilce_ad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_mahalle">
+      <EntityTypeMapping TypeName="KTSModel.tbl_mahalle">
+        <MappingFragment StoreEntitySet="tbl_mahalle">
+          <ScalarProperty Name="mahalle_id" ColumnName="mahalle_id" />
+          <ScalarProperty Name="semt_id" ColumnName="semt_id" />
+          <ScalarProperty Name="mahalle_ad" ColumnName="mahalle_ad" />
+          <ScalarProperty Name="pk_id" ColumnName="pk_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_semt">
+      <EntityTypeMapping TypeName="KTSModel.tbl_semt">
+        <MappingFragment StoreEntitySet="tbl_semt">
+          <ScalarProperty Name="semt_id" ColumnName="semt_id" />
+          <ScalarProperty Name="ilce_id" ColumnName="ilce_id" />
+          <ScalarProperty Name="semt_ad" ColumnName="semt_ad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="üye">
+      <EntityTypeMapping TypeName="KTSModel.üye">
+        <MappingFragment StoreEntitySet="üye">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Adsoyad" ColumnName="Adsoyad" />
+          <ScalarProperty Name="telno" ColumnName="telno" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="sifre" ColumnName="sifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_pk">
+      <EntityTypeMapping TypeName="KTSModel.tbl_pk">
+        <MappingFragment StoreEntitySet="tbl_pk">
+          <ScalarProperty Name="pk_id" ColumnName="pk_id" />
+          <ScalarProperty Name="kod" ColumnName="kod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

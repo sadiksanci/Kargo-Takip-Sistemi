@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\sadik\OneDrive\Masaüstü\Site\kargotakip</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>12/10/2020 20:07:35</publishTime>
+    </File>
+    <File Include="anasayfa.css">
+      <publishTime>01/29/2021 00:36:00</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/13/2018 23:22:12</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/13/2018 23:22:24</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/de/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>08/13/2018 23:22:58</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/de/System.Spatial.resources.dll">
+      <publishTime>08/13/2018 23:22:38</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/13/2018 23:22:12</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/13/2018 23:22:24</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/es/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>08/13/2018 23:22:58</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/es/System.Spatial.resources.dll">
+      <publishTime>08/13/2018 23:22:38</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/13/2018 23:22:12</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/13/2018 23:22:24</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/fr/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>08/13/2018 23:22:58</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/fr/System.Spatial.resources.dll">
+      <publishTime>08/13/2018 23:22:38</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/13/2018 23:22:12</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/13/2018 23:22:24</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/it/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>08/13/2018 23:22:58</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/it/System.Spatial.resources.dll">
+      <publishTime>08/13/2018 23:22:38</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/13/2018 23:22:12</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/13/2018 23:22:24</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/ja/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>08/13/2018 23:22:58</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/ja/System.Spatial.resources.dll">
+      <publishTime>08/13/2018 23:22:38</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/13/2018 23:22:12</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/13/2018 23:22:24</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/ko/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>08/13/2018 23:22:58</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/ko/System.Spatial.resources.dll">
+      <publishTime>08/13/2018 23:22:38</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.Azure.WebJobs.dll">
+      <publishTime>04/22/2016 16:05:04</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.Azure.WebJobs.Host.dll">
+      <publishTime>04/22/2016 16:05:20</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.Azure.WebJobs.Host.xml">
+      <publishTime>04/22/2016 16:05:20</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.Azure.WebJobs.xml">
+      <publishTime>04/22/2016 16:05:04</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.Data.Edm.dll">
+      <publishTime>08/13/2018 23:22:10</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.Data.Edm.xml">
+      <publishTime>08/13/2018 23:22:10</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.Data.OData.dll">
+      <publishTime>08/13/2018 23:22:22</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.Data.OData.xml">
+      <publishTime>08/13/2018 23:22:22</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.Data.Services.Client.dll">
+      <publishTime>08/13/2018 23:22:58</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.Data.Services.Client.xml">
+      <publishTime>08/13/2018 23:22:58</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.WindowsAzure.Configuration.dll">
+      <publishTime>02/03/2016 15:22:42</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.WindowsAzure.Configuration.xml">
+      <publishTime>02/03/2016 15:22:42</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.WindowsAzure.Storage.dll">
+      <publishTime>04/06/2016 15:02:28</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.WindowsAzure.Storage.pdb">
+      <publishTime>04/06/2016 15:02:28</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Microsoft.WindowsAzure.Storage.xml">
+      <publishTime>04/06/2016 15:02:28</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/Newtonsoft.Json.xml">
+      <publishTime>04/22/2019 00:57:26</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/13/2018 23:22:12</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/13/2018 23:22:24</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/ru/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>08/13/2018 23:22:58</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/ru/System.Spatial.resources.dll">
+      <publishTime>08/13/2018 23:22:38</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/System.Spatial.dll">
+      <publishTime>08/13/2018 23:22:38</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/System.Spatial.xml">
+      <publishTime>08/13/2018 23:22:38</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/WebJob1.exe">
+      <publishTime>01/29/2021 20:47:02</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/WebJob1.exe.config">
+      <publishTime>12/10/2020 20:10:38</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/WebJob1.pdb">
+      <publishTime>01/29/2021 20:47:02</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/13/2018 23:22:12</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/13/2018 23:22:24</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/zh-Hans/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>08/13/2018 23:22:58</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>08/13/2018 23:22:38</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/13/2018 23:22:12</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/13/2018 23:22:24</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/zh-Hant/Microsoft.Data.Services.Client.resources.dll">
+      <publishTime>08/13/2018 23:22:58</publishTime>
+    </File>
+    <File Include="app_data/jobs/continuous/WebJob1/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>08/13/2018 23:22:38</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.bootstrap.dll">
+      <publishTime>03/15/2019 11:59:54</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>05/16/2019 12:33:30</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/KargotakipSistemi.dll">
+      <publishTime>01/29/2021 20:46:58</publishTime>
+    </File>
+    <File Include="bin/KargotakipSistemi.pdb">
+      <publishTime>01/29/2021 20:46:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>07/30/2013 16:57:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>02/11/2014 14:26:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>09/06/2013 11:20:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>09/06/2013 11:20:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 14:26:04</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.AspNet.FriendlyUrls.resources.dll">
+      <publishTime>07/30/2013 17:01:54</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Optimization.resources.dll">
+      <publishTime>02/11/2014 15:28:44</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 12:57:34</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>12/10/2020 20:07:35</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>12/11/2020 15:39:44</publishTime>
+    </File>
+    <File Include="Content/style.css">
+      <publishTime>12/27/2020 18:14:03</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>01/29/2021 01:24:34</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>12/10/2020 20:07:35</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="Genel/girisyap.aspx">
+      <publishTime>12/28/2020 01:24:18</publishTime>
+    </File>
+    <File Include="Genel/hakimizda.aspx">
+      <publishTime>12/11/2020 15:58:40</publishTime>
+    </File>
+    <File Include="Genel/iletisim.aspx">
+      <publishTime>01/28/2021 20:16:51</publishTime>
+    </File>
+    <File Include="Genel/kargola.aspx">
+      <publishTime>01/28/2021 21:45:55</publishTime>
+    </File>
+    <File Include="Genel/Kargolarr.aspx">
+      <publishTime>01/29/2021 01:22:46</publishTime>
+    </File>
+    <File Include="Genel/kargosil.aspx">
+      <publishTime>01/27/2021 17:50:45</publishTime>
+    </File>
+    <File Include="Genel/kargosorgu.aspx">
+      <publishTime>01/29/2021 01:02:27</publishTime>
+    </File>
+    <File Include="Genel/mesajdetay.aspx">
+      <publishTime>01/12/2021 03:55:40</publishTime>
+    </File>
+    <File Include="Genel/mesajsil.aspx">
+      <publishTime>12/28/2020 01:14:11</publishTime>
+    </File>
+    <File Include="Genel/modalpopup.aspx">
+      <publishTime>01/27/2021 21:09:59</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/10/2020 20:07:35</publishTime>
+    </File>
+    <File Include="image/alt2.png">
+      <publishTime>01/29/2021 00:09:30</publishTime>
+    </File>
+    <File Include="image/giris.jpg">
+      <publishTime>12/18/2020 23:56:30</publishTime>
+    </File>
+    <File Include="image/kargoekle.png">
+      <publishTime>01/28/2021 22:59:02</publishTime>
+    </File>
+    <File Include="image/kargolar.png">
+      <publishTime>01/28/2021 23:01:18</publishTime>
+    </File>
+    <File Include="image/kutu.jpg">
+      <publishTime>12/18/2020 19:35:11</publishTime>
+    </File>
+    <File Include="image/logo.png">
+      <publishTime>12/21/2020 22:43:08</publishTime>
+    </File>
+    <File Include="image/mesajlar1.png">
+      <publishTime>01/28/2021 22:49:12</publishTime>
+    </File>
+    <File Include="image/resim1.png">
+      <publishTime>01/19/2021 03:47:20</publishTime>
+    </File>
+    <File Include="image/resim2.png">
+      <publishTime>01/19/2021 03:47:20</publishTime>
+    </File>
+    <File Include="image/resim3.png">
+      <publishTime>01/19/2021 03:47:22</publishTime>
+    </File>
+    <File Include="image/resim5.png">
+      <publishTime>01/29/2021 00:28:09</publishTime>
+    </File>
+    <File Include="image/resim6.png">
+      <publishTime>01/29/2021 00:28:05</publishTime>
+    </File>
+    <File Include="image/sil.jpg">
+      <publishTime>12/27/2020 21:09:04</publishTime>
+    </File>
+    <File Include="image/soru1.png">
+      <publishTime>01/29/2021 00:18:25</publishTime>
+    </File>
+    <File Include="image/üst5.png">
+      <publishTime>01/29/2021 00:54:28</publishTime>
+    </File>
+    <File Include="Models/Model1.edmx.diagram">
+      <publishTime>12/28/2020 03:29:44</publishTime>
+    </File>
+    <File Include="Properties/webjobs-list.json">
+      <publishTime>12/10/2020 20:10:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>12/10/2020 20:07:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.js">
+      <publishTime>12/10/2020 20:07:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.js">
+      <publishTime>12/10/2020 20:07:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.map">
+      <publishTime>12/10/2020 20:07:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.js">
+      <publishTime>12/10/2020 20:07:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.js">
+      <publishTime>12/10/2020 20:07:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.map">
+      <publishTime>12/10/2020 20:07:42</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>12/10/2020 20:07:45</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/DetailsView.js">
+      <publishTime>12/10/2020 20:07:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Focus.js">
+      <publishTime>12/10/2020 20:07:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/GridView.js">
+      <publishTime>12/10/2020 20:07:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Menu.js">
+      <publishTime>12/10/2020 20:07:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MenuStandards.js">
+      <publishTime>12/10/2020 20:07:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjax.js">
+      <publishTime>12/10/2020 20:07:51</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js">
+      <publishTime>12/10/2020 20:07:51</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js">
+      <publishTime>12/10/2020 20:07:51</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js">
+      <publishTime>12/10/2020 20:07:51</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js">
+      <publishTime>12/10/2020 20:07:51</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js">
+      <publishTime>12/10/2020 20:07:51</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js">
+      <publishTime>12/10/2020 20:07:51</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js">
+      <publishTime>12/10/2020 20:07:51</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js">
+      <publishTime>12/10/2020 20:07:51</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js">
+      <publishTime>12/10/2020 20:07:51</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js">
+      <publishTime>12/10/2020 20:07:51</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/SmartNav.js">
+      <publishTime>12/10/2020 20:07:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/TreeView.js">
+      <publishTime>12/10/2020 20:07:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebForms.js">
+      <publishTime>12/10/2020 20:07:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebParts.js">
+      <publishTime>12/10/2020 20:07:52</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebUIValidation.js">
+      <publishTime>12/10/2020 20:07:52</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>01/29/2021 00:54:35</publishTime>
+    </File>
+    <File Include="Site.Mobile.Master">
+      <publishTime>12/10/2020 20:07:53</publishTime>
+    </File>
+    <File Include="tasarim.css">
+      <publishTime>01/28/2021 23:29:14</publishTime>
+    </File>
+    <File Include="tasarim2.css">
+      <publishTime>01/28/2021 23:24:19</publishTime>
+    </File>
+    <File Include="tasarim3.css">
+      <publishTime>12/21/2020 23:17:47</publishTime>
+    </File>
+    <File Include="ViewSwitcher.ascx">
+      <publishTime>12/10/2020 20:07:53</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/29/2021 20:47:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
